@@ -17,63 +17,56 @@ properties:
         requests:
           cpu: 1
           memoryInGB: 1
-- name: container2
+  - name: container3
     properties:
       image: awasaes/gaga:latest
       resources:
         requests:
           cpu: 1
           memoryInGB: 1
-- name: container3
+  - name: container4
     properties:
       image: awasaes/gaga:latest
       resources:
         requests:
           cpu: 1
           memoryInGB: 1
-- name: container4
+  - name: container5
     properties:
       image: awasaes/gaga:latest
       resources:
         requests:
           cpu: 1
           memoryInGB: 1
-- name: container5
+  - name: container6
     properties:
       image: awasaes/gaga:latest
       resources:
         requests:
           cpu: 1
           memoryInGB: 1
-- name: container6
+  - name: container7
     properties:
       image: awasaes/gaga:latest
       resources:
         requests:
           cpu: 1
           memoryInGB: 1
-- name: container7
+  - name: container8
     properties:
       image: awasaes/gaga:latest
       resources:
         requests:
           cpu: 1
           memoryInGB: 1
-- name: container8
+  - name: container9
     properties:
       image: awasaes/gaga:latest
       resources:
         requests:
           cpu: 1
           memoryInGB: 1
-- name: container9
-    properties:
-      image: awasaes/gaga:latest
-      resources:
-        requests:
-          cpu: 1
-          memoryInGB: 1
-- name: container10
+  - name: container10
     properties:
       image: awasaes/gaga:latest
       resources:
@@ -82,4 +75,3 @@ properties:
           memoryInGB: 1
   osType: Linux
   restartPolicy: Always
-
