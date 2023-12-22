@@ -1,0 +1,85 @@
+apiVersion: '2018-10-01'
+location: japaneast
+name: <ContainerGroupName>
+properties:
+  containers:
+  - name: container1
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+  - name: container2
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+- name: container2
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+- name: container3
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+- name: container4
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+- name: container5
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+- name: container6
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+- name: container7
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+- name: container8
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+- name: container9
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+- name: container10
+    properties:
+      image: awasaes/gaga:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGB: 1
+  osType: Linux
+  restartPolicy: Always
+
