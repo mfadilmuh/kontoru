@@ -1,6 +1,6 @@
-apiVersion: '2018-10-01'
+apiVersion: '2021-01-01'
 location: japaneast
-name: <ContainerGroupName>
+name: gasmang
 properties:
   containers:
   - name: container1
